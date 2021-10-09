@@ -6,7 +6,9 @@ function App() {
     <div className="App">
       <Greeting name="Superman" heroName="Clark"></Greeting>
       <Greeting name="Batmen" heroName="Bruce"></Greeting>
-      <Greeting name="Wonderwomen" heroName="Diana"></Greeting>
+      <Greeting name="Wonderwomen" heroName="Diana">
+        <p>Children props</p>
+      </Greeting>
     </div>
   );
 }
